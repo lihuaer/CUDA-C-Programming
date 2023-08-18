@@ -1,0 +1,30 @@
+cmake_minimum_required(VERSION 3.24)
+project(cuda_1 CUDA)
+# 启用C语言支持
+enable_language(C)
+enable_language(CXX)
+
+set(CMAKE_CUDA_STANDARD 17)
+
+add_executable(cuda_1 main.cu)
+#set_source_files_properties(c_1.c PROPERTIES LANGUAGE C)
+#add_executable(c_1 c_1.c)
+#add_executable(cuda_2 cuda_2.cu)
+#add_executable(block block.cu smem_square.cu)
+#add_executable(checkThreadIndex checkThreadIndex.cu)
+#add_executable(reduceInteger reduceInteger.cu)
+#add_executable(nestedHelloWorld nestedHelloWorld.cu)
+#add_executable(globalvariable globalvariable.cu)
+#add_executable(simplemathAoS simplemathAoS.cu)
+#add_executable(transpose transpose.cu)
+#add_executable(smem_square smem_square.cu)
+#add_executable(smem_rect smem_rect.cu)
+#add_executable(smem_reduce smem_reduceInteger.cu)
+#add_executable(smem_transpose smem_transpose.cu)
+#add_executable(readSegment readSegment.cu)
+#add_executable(shuffle shuffle.cu)
+#add_executable(cuda_stream cuda_stream.cu)
+#add_executable(Compute_Sanitizer "Compute Sanitizer.cu")
+
+set_target_properties(cuda_1 PROPERTIES
+        CUDA_SEPARABLE_COMPILATION ON)
