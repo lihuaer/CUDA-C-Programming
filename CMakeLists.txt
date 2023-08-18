@@ -1,12 +1,12 @@
 cmake_minimum_required(VERSION 3.24)
-project(cuda_1 CUDA)
+project(cuda CUDA)
 # 启用C语言支持
 enable_language(C)
 enable_language(CXX)
 
 set(CMAKE_CUDA_STANDARD 17)
 
-add_executable(cuda_1 main.cu)
+add_executable(cuda main.cu)
 #set_source_files_properties(c_1.c PROPERTIES LANGUAGE C)
 #add_executable(c_1 c_1.c)
 #add_executable(cuda_2 cuda_2.cu)
