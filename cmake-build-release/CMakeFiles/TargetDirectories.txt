@@ -1,0 +1,3 @@
+/home/huan/Try_CUDA/CUDA-C-Programming/cmake-build-release/CMakeFiles/cuda_1.dir
+/home/huan/Try_CUDA/CUDA-C-Programming/cmake-build-release/CMakeFiles/edit_cache.dir
+/home/huan/Try_CUDA/CUDA-C-Programming/cmake-build-release/CMakeFiles/rebuild_cache.dir
